@@ -1,5 +1,5 @@
 # APEX AGENTS (Neural MMO) 
-![Alt Text](https://github.com/rahulrao9/Apex-Agents/imgs/map.png)|![fight](https://github.com/rahulrao9/Apex-Agents/imgs/fight.png)
+![Alt Text](https://github.com/rahulrao9/Apex-Agents/blob/main/imgs/map.png)|![fight](https://github.com/rahulrao9/Apex-Agents/blob/main/imgs/fight.png)
 Apex Agents is a Multi-Agent Reinforcement Learning (MARL) experiment built on the Neural MMO 1.6 environment. It evaluates a Neuro-Symbolic hybrid architecture by injecting explicit, rule-based heuristics over a frozen deep-learning baseline (Realikun).
 
 By isolating the movement action head from the combat targeting head via probabilistic gating, this project demonstrates how symbolic logic can radically alter multi-agent dynamics. This architecture yields emergent strategies—such as flawless ranged kiting—and distinct economic efficiencies without the computational overhead of network fine-tuning.
