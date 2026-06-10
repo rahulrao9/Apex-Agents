@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://github.com/rahulrao9/Apex-Agents/raw/main/imgs/map.png" width="45%" alt="Map" />
-  <img src="https://github.com/rahulrao9/Apex-Agents/raw/main/imgs/fight.png" width="45%" alt="Fight" />
+  <img src="https://github.com/rahulrao9/Apex-Agents/raw/main/imgs/fight.gif" width="45%" alt="Fight" />
 </p>
 
 Apex Agents is a Multi-Agent Reinforcement Learning (MARL) experiment built on the Neural MMO 1.6 environment. It evaluates a Neuro-Symbolic hybrid architecture by injecting explicit, rule-based heuristics over a frozen deep-learning baseline (Realikun).
