@@ -242,3 +242,9 @@ python stream_replay.py
 * Replays are generated automatically by `run.py`.
 * Analytics scripts assume all tournament runs completed successfully.
 * Generated figures are saved automatically in the `plots/` directory.
+
+---
+
+# Acknowledgments
+
+A special thank you to the creators of **[Realikun](https://github.com/Netease-Games-AI-Lab-Guangzhou/realikun)**. Their open-source Neural MMO agent served as the primary motivation and the foundational deep-learning baseline for this project!
