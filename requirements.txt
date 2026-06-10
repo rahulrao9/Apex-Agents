@@ -1,0 +1,8 @@
+nmmo==1.6.0
+numpy==1.26.4
+torch==1.13.1
+matplotlib==3.9.4
+scipy==1.13.1
+tqdm==4.61.1
+Twisted==19.2.0
+websocket-client==1.5.1

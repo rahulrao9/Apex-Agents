@@ -1,0 +1,46 @@
+import nmmo
+
+
+class CompetitionConfig(nmmo.config.Medium, nmmo.config.AllGameSystems):
+    TASKS = None
+    MAP_N = 40
+    PATH_MAPS = "maps"
+
+    COMBAT_FRIENDLY_FIRE = False
+    PLAYER_N = 128
+    PLAYER_LOADER = nmmo.spawn.TeamLoader
+    PLAYERS = 16 * [nmmo.Agent]
+
+    PLAYER_DEATH_FOG = 240
+    PLAYER_DEATH_FOG_FINAL_SIZE = 15
+    PLAYER_DEATH_FOG_SPEED = 1 / 16
+
+    SPECIALIZE = True
+
+    # Progession
+    PROGRESSION_MELEE_BASE_DAMAGE = 7
+    PROGRESSION_RANGE_BASE_DAMAGE = 7
+    PROGRESSION_MAGE_BASE_DAMAGE = 7
+
+    # NPC
+    NPC_BASE_DEFENSE = 0
+    NPC_LEVEL_DEFENSE = 15
+    NPC_BASE_DAMAGE = 10
+    NPC_LEVEL_DAMAGE = 15
+
+    # Equipment
+    EQUIPMENT_WEAPON_BASE_DAMAGE = 0
+    EQUIPMENT_WEAPON_LEVEL_DAMAGE = 10
+    EQUIPMENT_AMMUNITION_BASE_DAMAGE = 0
+    EQUIPMENT_AMMUNITION_LEVEL_DAMAGE = 10
+    EQUIPMENT_TOOL_BASE_DEFENSE = 0
+    EQUIPMENT_TOOL_LEVEL_DEFENSE = 4
+    EQUIPMENT_ARMOR_BASE_DEFENSE = 0
+    EQUIPMENT_ARMOR_LEVEL_DEFENSE = 4
+
+    # Terrain
+    TERRAIN_WATER = 0.29
+
+    @property
+    def PLAYER_SPAWN_FUNCTION(self):
+        return nmmo.spawn.spawn_concurrent
